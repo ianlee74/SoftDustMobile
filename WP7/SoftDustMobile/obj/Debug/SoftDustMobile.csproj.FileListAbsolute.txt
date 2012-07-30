@@ -1,0 +1,13 @@
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\Bin\Debug\ApplicationIcon.png
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\Bin\Debug\Background.png
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\Bin\Debug\SoftDustMobile.dll
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\Bin\Debug\SoftDustMobile.pdb
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\Bin\Debug\AppManifest.xaml
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\Bin\Debug\SoftDustMobile.xap
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\obj\Debug\App.g.i.cs
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\obj\Debug\MainPage.g.i.cs
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\obj\Debug\SoftDustMobile.g.resources
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\obj\Debug\SoftDustMobile.dll
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\obj\Debug\SoftDustMobile.pdb
+C:\git_repo\ianlee74\SoftDustMobile\WP7\SoftDustMobile\obj\Debug\XapCacheFile.xml
