@@ -13,9 +13,10 @@
     SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
     shell:SystemTray.IsVisible="True">
     
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="#FF3A2010">
         <phone:WebBrowser Source="http://blog.ianlee.info?m=1"
                         HorizontalAlignment="Stretch"
-                        VerticalAlignment="Stretch" NavigationFailed="OnNavigationFailed" IsScriptEnabled="True" />
+                        VerticalAlignment="Stretch" NavigationFailed="OnNavigationFailed" IsScriptEnabled="True" Margin="0,60,0,0" />
+        <Image Height="67" HorizontalAlignment="Center" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="480" Source="/SoftDustMobile;component/Logo2.png" />
     </Grid>
 </phone:PhoneApplicationPage>
