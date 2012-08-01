@@ -6,17 +6,32 @@
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
-    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    mc:Ignorable="d" FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="True" d:DesignHeight="696" d:DesignWidth="480">
     
     <Grid x:Name="LayoutRoot" Background="#FF3A2010">
         <phone:WebBrowser Source="http://blog.ianlee.info?m=1"
                         HorizontalAlignment="Stretch"
-                        VerticalAlignment="Stretch" NavigationFailed="OnNavigationFailed" IsScriptEnabled="True" Margin="0,60,0,0" />
+                        VerticalAlignment="Stretch" NavigationFailed="OnNavigationFailed" IsScriptEnabled="True" Margin="0,50,0,0" Name="webBrowser" />
         <Image Height="67" HorizontalAlignment="Center" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="480" Source="/SoftDustMobile;component/Logo2.png" />
     </Grid>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="projectsButton"
+IconUri="/Images/appbar.folder.rest.png" Text="projects"
+Click="projectsButton_Click"/>
+            <shell:ApplicationBarIconButton x:Name="homeButton"
+IconUri="/Images/appbar.upload.rest.png" Text="home"
+Click="homeButton_Click"/>
+            <shell:ApplicationBarIconButton x:Name="emailButton"
+IconUri="/Images/appbar.feature.email.rest.png" Text="email"
+Click="emailButton_Click"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="about" Click="ApplicationBarMenuItem_Click"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
 </phone:PhoneApplicationPage>

@@ -25,5 +25,25 @@ namespace SoftDustMobile
         {
             
         }
+
+        private void projectsButton_Click(object sender, EventArgs e)
+        {
+            webBrowser.Navigate(new Uri("http://blog.ianlee.info/p/projects.html?m=1", UriKind.Absolute));
+        }
+
+        private void homeButton_Click(object sender, EventArgs e)
+        {
+            webBrowser.Navigate(new Uri("http://blog.ianlee.info/?m=1", UriKind.Absolute));
+        }
+
+        private void emailButton_Click(object sender, EventArgs e)
+        {
+            webBrowser.Navigate(new Uri("http://blog.ianlee.info/p/contact-me.html?m=1", UriKind.Absolute));
+        }
+
+        private void ApplicationBarMenuItem_Click(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/YourLastAboutDialog;component/AboutPage.xaml", UriKind.Relative));
+        }
     }
 }

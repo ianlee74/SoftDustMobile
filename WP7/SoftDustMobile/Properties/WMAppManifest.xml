@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
-  <App xmlns="" ProductID="{5a166686-add1-43c2-808b-ff8ff2b05e49}" Title="Software &amp; Sawdust" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="SoftDustMobile author" Description="Sample description" Publisher="SoftDustMobile">
+  <App xmlns="" ProductID="{5a166686-add1-43c2-808b-ff8ff2b05e49}" Title="Software &amp; Sawdust" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="SoftDustMobile author" 
+       Description="This is the mobile version of my Software &amp; Sawdust blog located at http://blog.ianlee.info" 
+       Publisher="SoftDustMobile">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES" />
